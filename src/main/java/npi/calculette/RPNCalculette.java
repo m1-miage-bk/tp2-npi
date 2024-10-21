@@ -72,6 +72,7 @@ public class RPNCalculette implements Calc {
      * @throws DivideByZeroException
      */
     @Override
+    // A mettre dans un try catch
     public void divide() throws NotEnoughOperandsOnStackException, DivideByZeroException {
         if (calc.getSize() < 2) {
             throw new NotEnoughOperandsOnStackException();
