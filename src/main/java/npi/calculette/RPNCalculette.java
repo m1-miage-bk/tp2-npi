@@ -18,6 +18,7 @@ public class RPNCalculette implements Calc {
     /**
      * adds the two last values, replacing them with the result on top
      * @throws NotEnoughOperandsOnStackException
+     * implémentation de la methode qui permet d'additionner des nombres
      */
     @Override
     public void add() throws NotEnoughOperandsOnStackException {
